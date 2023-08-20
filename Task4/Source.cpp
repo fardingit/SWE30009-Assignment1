@@ -33,7 +33,7 @@ int main() {
             }
         }       
         bool concrete = true;
-        double expectedoutcome = 0.0;
+        double expectedoutcome = (a-b)*2;
         for (const double& result : results) {
             if (expectedoutcome == result) {
                 concrete = false;
